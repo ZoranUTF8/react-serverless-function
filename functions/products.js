@@ -10,6 +10,7 @@ const airtable = new Airtable({
 
 exports.handler = async (event, context) => {
   //? get the data id
+  console.log(event.queryStringParameters);
   const { id } = event.queryStringParameters;
   //! if id available get single product
   if (id) {
