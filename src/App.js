@@ -1,6 +1,13 @@
 import Basic from "./Basic";
+import Airtable from "./Airtable";
 function App() {
-  return <Basic />;
+  return (
+    <>
+
+      <Basic />;
+      <Airtable />
+    </>
+  );
 }
 
 export default App;
